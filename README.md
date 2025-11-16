@@ -74,4 +74,19 @@ gobuster dir -u "https://google.com" -w /usr/share/wordlists/dirb/big.txt --wild
 
 ![ESC2](https://github.com/Rohan-012/awesome-recon-tools/blob/dca033f5fea87c7d3d10f006db893f7c46a0d550/images/gobuster.png)
 
+## 🔍 dnsenum
+dnsenum is a pyhton tool for enumerating DNS records (MX, SOA, NS, A, AAAA, SPF and TXT) and can provide a number of new associated victim hosts to pivot into from a single domain search.
+
+**Install:** 
+
+```bash
+sudo apt install dnsenum
+```
+
+**Usage:** 
+
+```bash
+dnsenum  google.com
+```
+
 
