@@ -72,6 +72,6 @@ sudo apt install gobuster
 gobuster dir -u "https://google.com" -w /usr/share/wordlists/dirb/big.txt --wildcard -b 301,401,403,404,500 -t 20
 ```
 
-![ESC2](https://github.com/Rohan-012/awesome-recon-tools/blob/25d1197eb71c3793d03f56eff182e974b1d8b9c0/images/gobuster.png)
+![ESC2](https://github.com/Rohan-012/awesome-recon-tools/blob/dca033f5fea87c7d3d10f006db893f7c46a0d550/images/gobuster.png)
 
 
