@@ -32,3 +32,21 @@ Enter domain (example.com):
 example.com
 ![ESC2](https://github.com/Rohan-012/awesome-recon-tools/blob/33a6fc5087251d0dac608b858efcbb4e52668a47/images/crt.st.png)
 
+# waybackurls
+
+Accept line-delimited domains on stdin, fetch known URLs from the Wayback Machine for `*.domain` and output them on stdout.
+
+Usage example:
+
+```
+▶ cat domains.txt | waybackurls > urls
+```
+
+Install:
+
+```
+▶ go install github.com/tomnomnom/waybackurls@latest
+```
+
+
+
