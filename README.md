@@ -88,5 +88,5 @@ sudo apt install dnsenum
 ```bash
 dnsenum  google.com
 ```
-
+![ESC2](https://github.com/Rohan-012/awesome-recon-tools/blob/b5cb39804cf74e5ecdbc060f458ecd5a47698765/images/dnsenum.png)
 
