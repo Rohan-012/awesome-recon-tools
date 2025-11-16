@@ -90,3 +90,8 @@ dnsenum  google.com
 ```
 ![ESC2](https://github.com/Rohan-012/awesome-recon-tools/blob/b5cb39804cf74e5ecdbc060f458ecd5a47698765/images/dnsenum.png)
 
+## 🔍 shodan.io
+
+Shodan crawls public infrastructure and displays it in a searchable format. Using a company name, domain name, IP address it is possible to discover potentially vulnerable systems relating to your target via shodan.
+
+
