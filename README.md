@@ -16,3 +16,19 @@ Unauthorized scanning is illegal.
 - URL extraction from webpages
 - Website screenshotting
 - Modular, extensible structure
+
+## 🔎 Subdomain Enumeration (crt.sh)
+
+The toolkit includes a passive subdomain enumeration module powered by **crt.sh**,  
+a public certificate transparency log search engine.
+
+crt.sh allows you to discover **subdomains that appear in SSL certificates**,  
+making it a powerful and completely passive reconnaissance technique.
+## ▶️ Usage (crt.sh Subdomain Enumeration)
+
+The crt.sh subdomain module is included automatically when you run the main toolkit.
+
+Enter domain (example.com):
+example.com
+
+
