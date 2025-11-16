@@ -24,7 +24,7 @@ a public certificate transparency log search engine.
 
 crt.sh allows you to discover **subdomains that appear in SSL certificates**,  
 making it a powerful and completely passive reconnaissance technique.
-## ▶️ Usage (crt.sh Subdomain Enumeration)
+## Usage crt.sh
 
 The crt.sh subdomain module is included automatically when you run the main toolkit.
 
@@ -32,21 +32,28 @@ Enter domain (example.com):
 example.com
 ![ESC2](https://github.com/Rohan-012/awesome-recon-tools/blob/33a6fc5087251d0dac608b858efcbb4e52668a47/images/crt.st.png)
 
-# waybackurls
 
-Accept line-delimited domains on stdin, fetch known URLs from the Wayback Machine for `*.domain` and output them on stdout.
 
-Usage example:
 
-```
-▶ cat domains.txt | waybackurls > urls
-```
+## 🔍 Censys Asset Discovery
 
-Install:
+Censys is a powerful search engine for discovering public-facing hosts, services,  
+certificates, and Internet assets. It collects data by scanning the entire  
+IPv4 and IPv6 space daily.
 
-```
-▶ go install github.com/tomnomnom/waybackurls@latest
-```
+This module lets you query **Censys Search API** to gather:
+
+- Public IP information  
+- Open ports  
+- Service banners  
+- Certificates  
+- Hostnames  
+- Technologies exposed  
+
+This helps you expand and validate your reconnaissance results.
+
+---
+
 
 
 
